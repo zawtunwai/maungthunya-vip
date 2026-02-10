@@ -380,7 +380,7 @@ port_manager_menu() {
 
 # --- SLOWDNS MANAGER LOGIC ---
 run_slowdns_manager() {
-    local SCRIPT_URL="https://raw.githubusercontent.com/zawtunwai/dnstt-deploy/main/dnstt-deploy.sh"
+    local SCRIPT_URL="https://raw.githubusercontent.com/bugfloyd/dnstt-deploy/main/dnstt-deploy.sh"
     local SCRIPT_PATH="/usr/local/bin/dnstt-deploy"
     if [ ! -f "$SCRIPT_PATH" ]; then
         echo -e "${YELLOW}Downloading dnstt-deploy...${NC}"
